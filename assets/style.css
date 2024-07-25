@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Pixelated MS Sans Serif';
+    src: url('assets/fonts/ms_sans_serif.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/ms_sans_serif.woff') format('woff'), /* Pretty Modern Browsers */
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pixelated MS Sans Serif';
+    src: url('assets/fonts/ms_sans_serif_bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/ms_sans_serif_bold.woff') format('woff'), /* Pretty Modern Browsers */
+         font-style: bold;
+}
+
+body {
+    background-color: #008181;
+    font-family: 'MS Sans Serif', Arial;
+    font-size: 12px;
+    -webkit-font-smoothing: none;
+    color: #222222;
+    margin: 7%;
+
+}
+
+main {
+    margin: auto;
+    padding: 2px;
+    max-width: 400px;
+    background-color: #C2C2C2;
+    border: 2px outset;
+    box-shadow: 2px 2px 0px black;
+}
+
+h1 {
+    background: linear-gradient(90deg, rgba(0,0,128,1) 0%, rgba(16,131,207,1) 100%);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    color: #fff;
+    padding: 4px;
+    font-family: 'Pixelated MS Sans Serif', Arial;
+}
+
+p {
+    margin: 0;
+}
+
+.icon-align {
+    float: left;
+    margin-right: 20px;
+}
+
+.btn-align {
+    float: right;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+}
+
+nav li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+nav li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #C2C2C2;
+    border: 2px outset;
+    box-shadow: 2px 2px 0px #0a0a0a;
+    padding: 7px;
+    min-width: 100%;
+}
+
+button a{
+    text-decoration: none;
+    color: #222222;
+}
+
+button:hover {
+    background-color: #C2C2C2;
+    box-shadow: -0.5px -0.5px 0 0.5px #808080, 0 0 0 1px #c0c0c0, -0.5px -0.5px 0 1.5px #0a0a0a, 0 0 0 2px #ffffff;
+    outline: 1px dotted #000000;
+    outline-offset: -5px; 
+    padding: 7px;
+    margin: 1px;
+    min-width: 100%;
+}
+
+button:focus {
+    outline: 1px dotted #000000;
+    outline-offset: -5px; 
+}
